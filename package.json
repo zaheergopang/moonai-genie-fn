@@ -1,6 +1,12 @@
 {
   "name": "moonai-genie-fn",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "main": "index.js",
-  "private": true
+  "scripts": {
+    "start": "n8n start"
+  },
+  "dependencies": {
+    "n8n": "^1.30.0"
+  }
 }
+
